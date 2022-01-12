@@ -4,9 +4,9 @@
 
 int distributor()
 {
-	int sum = 0;
+	int sum;
 
-	printf("Сумма:  ");
+	printf("Введите сумму: ");
 	scanf("%d", &sum);
 
 	income(sum);
